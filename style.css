@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.5c2562f4e5a6e4afeb691283f0c0b7e3?rik=Z0ckaCwyq3NnRg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1GcNkBU.jpg&ehk=gEL6Yf00PhLLkBEWsSaCfxEzlJzL9McVbCHPIxB8lUs%3d&risl=&pid=ImgRaw&r=0);
+}
+
+:root{
+    --r : rgb(230, 18, 18);
+    --g : rgb(21, 186, 21);
+    --b : rgb(17, 86, 206);
+    --y: #FFC200;
+    --fb : 'Baloo 2', sans-serif;
+
+}
+
+header{
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    padding: 1vh;
+    font-family: var(--fb);
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 8vh;
+    font-size: 3.5vh;
+}
+
+.r{
+    color: var(--r);
+}
+.b{
+    color: var(--b);
+}
+.g{
+    color: var(--g);
+}
+.y{
+    color: var(--y);
+}
+
+.boxes{
+    margin-top: 5vh;
+    height: 105vh;
+    background-image: url(https://th.bing.com/th/id/R.b9641028a98c57455359f27382066ae5?rik=T4SFQQSmXXxEZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f65thfiw.png&ehk=up0SyQ4BPH6msVBIUjCFPyQ8stUbael%2fN0AgCAL92lM%3d&risl=&pid=ImgRaw&r=0);
+    border-radius: 2vh;
+}
+
+.box{
+    width: 35%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 1vh;
+    position: relative;
+    left: 18vh;
+    top: 5vh;
+    display: inline-block;
+    margin-left: 10vh;
+    padding: 5vh
+}
+
+.b1{
+    font-family: var(--fb);
+    padding: 3vh;
+    margin-left: 7vh;
+    margin-right: 5vh;
+    word-spacing: 1vh;
+}
+
+img{
+    width: 60vh;
+    height: 35vh;
+    position: relative; 
+    left: 10vh;
+    top: 5vh;
+    border-radius: 1vh;
+    
+}
+
+a{
+    color: blue;
+}
+
+.help{
+    width: 10vh;
+    height: 10vh;
+    background-color: aqua;
+    background-image: url(https://p7.hiclipart.com/preview/871/10/325/customer-service-help-desk-technical-support-roadside-icons.jpg);
+    background-size: contain;
+    position: fixed;
+    right: 5vh;
+    bottom: 8vh;
+    z-index: 1;
+    border-radius: 10vh;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+.container{
+    height: 60vh;
+    width: 80%;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.5dSi0zCpBrYxg1gwbe1IhgHaEo?pid=ImgDet&rs=1);
+    padding: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-top: 5vh;
+    border-radius: 5vh;
+    border: 1vh solid white;
+    font-family: Agbalumo;
+    position: relative;
+    left: 10vh;
+    word-spacing: 1vh;
+    color: rgb(9, 9, 145);
+}
+
+h3{
+    color: white;
+    background-color: rgb(9, 9, 145);
+    width: 73vw;
+    border-radius: 1vh;
+    font-family: var(--fb);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+hr{
+    width: 70vw;
+    border-width: 0;
+    border-radius: 1vh;
+    background-color: white;
+    height: 0.5vh;
+}
